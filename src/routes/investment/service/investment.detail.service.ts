@@ -34,7 +34,7 @@ const createInvestmentDiaryDetail = async (data: EventArrayIntrface) => {
 };
 
 const deleteInvestmentDiaryDetail = async (diaryDetailIdx: number) => {
-  await prismaClient.$queryRaw`DELETE FROM investing_diary_detail WHERE diary_idx = ${diaryDetailIdx}`;
+  await prismaClient.$queryRaw`DELETE FROM investing_diary_detail WHERE diary_detail_idx = ${diaryDetailIdx}`;
   return true;
 };
 
