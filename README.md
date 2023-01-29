@@ -1,2 +1,3 @@
 # investment_diary
-d
+
+투자 다요리
